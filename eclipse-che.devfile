@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  generateName: php-laravel-
+  generateName: daralian-test
 attributes:
   persistVolumes: 'false'
 projects:
@@ -42,7 +42,7 @@ components:
     endpoints:
       - attributes:
           discoverable: 'true'
-        name: db
+        name: db3
         port: 3306
     mountSources: false
 commands:
